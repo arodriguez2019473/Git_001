@@ -32,7 +32,7 @@ function validarFormulario() {
 
   alert("Formulario enviado correctamente. Redireccionando...");
 
-  window.location.href = 'otra_pagina.html';
+  window.location.href = 'assets/Paginas/Contactos.html';
 
   return true;
 }
