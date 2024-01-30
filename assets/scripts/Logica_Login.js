@@ -36,4 +36,3 @@ function validarFormulario() {
 
   return true;
 }
-
