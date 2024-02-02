@@ -1,43 +1,77 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
 
-  table {
-    border-collapse: collapse;
-    width: 80%;
-    margin: 20px auto;
-  }
+h1 {
+  color: #333;
+}
 
-  th, td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
-  }
+form {
+  max-width: 400px;
+  margin: 20px auto;
+}
 
-  th {
-    background-color: #4CAF50;
-    color: white;
-  }
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
 
-  button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 8px 12px;
-    cursor: pointer;
-  }
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
 
-  button:hover {
-    background-color: #45a049;
-  }
+button {
+  background-color: #1b00b6;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
-  .acciones {
-    display: flex;
-    gap: 10px;
-  }
+button:hover {
+  background-color: #008fb3;
+}
+
+#contactList {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #6c0f91;
+  color: white;
+}
+
+.acciones {
+  display: flex;
+  gap: 5px;
+}
+
+.info-detallada {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.info-detallada address {
+  margin: 0;
+  color: #333;
+}

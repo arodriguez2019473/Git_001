@@ -1,14 +1,14 @@
 function agregarContacto() {
-    alert('Agregar contacto');
-    window.location.href = '../Paginas/Prueba_2_contactos.html';
+    alert('Vamos a nuevo contacto');
+    window.location.href = '../Paginas/nuevo_Contactos.html';
 }
 
-  function verDetalles() {
-    alert('Ver detalles');
+function mostrarInformacion(infoId) {
+   var infoDetallada = document.getElementById(infoId);
 
-}
-
-  function borrarUsuario() {
-    alert('Borrar usuario');
-
+    if (infoDetallada.style.display === "none") {
+         infoDetallada.style.display = "block";
+     } else {
+        infoDetallada.style.display = "none";
+   }
 }
