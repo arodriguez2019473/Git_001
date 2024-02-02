@@ -1,6 +1,9 @@
 function agregarContacto() {
-    alert('Vamos a nuevo contacto');
     window.location.href = '../Paginas/nuevo_Contactos.html';
+}
+
+function Favoritos() {
+  window.location.href = '../Paginas/nuevo_Contactos.html';
 }
 
 function mostrarInformacion(infoId) {
