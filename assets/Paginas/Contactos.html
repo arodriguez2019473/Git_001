@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Estilos/Style_Contactos.css">
+    <title>Document</title>
+</head>
+    <body>
+        <button onclick="agregarContacto()">Agregar Contacto</button>
+        <button onclick="Favoritos()">Favoritos</button>
+        <button onclick="Usuario()">Usuario</button>
+        <button onclick="Cerrar()">cerrar secion</button>
+        <table>
+          <thead>
+              <tr>
+                  <th>Nombre</th>
+                  <th>Correo Electrónico</th>
+                  <th>Acciones</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>Gabriela</td>
+                  <td>usuario1@example.com</td>
+                  <td class="acciones">
+                      <button onclick="mostrarInformacion('info-gabriela')">Detalles</button>
+                      <div class="info-detallada" id="info-gabriela" style="display: none;">
+                          <address>
+                            Teléfono: (555) 0000-0001 <br>
+                            Dirección: 202 Avenida Serena, Ciudad Guatemala
+                          </address>
+                      </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td>Alejandro</td>
+                  <td>usuario2@example.com</td>
+                  <td class="acciones">
+                      <button onclick="mostrarInformacion('info-alejandro')">Detalles</button>
+                      <div class="info-detallada" id="info-alejandro" style="display: none;">
+                          <address>
+                            Teléfono: (555) 0000-0002 <br>
+                            Dirección: 101 Calle Tranquila, Ciudad Guatemala
+                          </address>
+                      </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td>Luis</td>
+                  <td>usuario3@example.com</td>
+                  <td class="acciones">
+                      <button onclick="mostrarInformacion('info-luis')">Detalles</button>
+                      <div class="info-detallada" id="info-luis" style="display: none;">
+                          <address>
+                            Teléfono: (555) 0000-0003 <br>
+                            Dirección: 789 Calle Residencial, Ciudad Guatemala
+                          </address>
+                      </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td>Pepe</td>
+                  <td>usuario4@example.com</td>
+                  <td class="acciones">
+                      <button onclick="mostrarInformacion('info-pepe')">Detalles</button>
+                      <div class="info-detallada" id="info-pepe" style="display: none;">
+                          <address>
+                            Teléfono: (555) 0000-0004 <br>
+                            Dirección: 456 Avenida Secundaria, Ciudad Guatemala
+                          </address>
+                      </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td>Juan</td>
+                  <td>usuario5@example.com</td>
+                  <td class="acciones">
+                      <button onclick="mostrarInformacion('info-juan')">Detalles</button>
+                      <div class="info-detallada" id="info-juan" style="display: none;">
+                          <address>
+                            Teléfono: (555) 0000-0005 <br>
+                            Dirección: 123 Calle Principal, Ciudad Guatemala
+                          </address>
+                      </div>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+    </body>
+    <script src="../scripts/Logica_Contactos.js"></script>
+</html>
