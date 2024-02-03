@@ -33,7 +33,7 @@ li {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #a75959;
     color: white;
     padding: 5px 10px;
     border: none;
@@ -42,5 +42,5 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #e41111;
 }
