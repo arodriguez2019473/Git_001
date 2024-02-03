@@ -3,7 +3,16 @@ function agregarContacto() {
 }
 
 function Favoritos() {
-  window.location.href = '../Paginas/nuevo_Contactos.html';
+  window.location.href = '../Paginas/Favorito.html';
+}
+
+function Usuario(){
+  window.location.href = '../Paginas/Usuario.html'
+}
+
+function Cerrar(){
+
+    window.location.href = '../../Index.html'
 }
 
 function mostrarInformacion(infoId) {

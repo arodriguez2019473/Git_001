@@ -1,3 +1,7 @@
+function Regresar() {
+    window.location.href = '../Paginas/Contactos.html';
+}
+
 function agregarTarea() {
     var nuevaTarea = document.getElementById('nuevaTarea').value;
 
@@ -27,7 +31,7 @@ function eliminarTarea(elemento) {
 function editarTarea(elemento) {
     var tareaElemento = elemento.parentNode;
     var tareaTexto = tareaElemento.firstChild;
-    var nuevaDescripcion = prompt("Editar Tarea", tareaTexto.nodeValue);
+    var nuevaDescripcion = prompt("Edita la Tarea", tareaTexto.nodeValue);
 
     if (nuevaDescripcion !== null) {
         tareaTexto.nodeValue = nuevaDescripcion;

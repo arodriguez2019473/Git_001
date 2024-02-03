@@ -1,3 +1,6 @@
+function Regresar() {
+    window.location.href = '../Paginas/Contactos.html';
+}
 function agregarContacto() {
     var nombre = document.getElementById('nombre').value;
     var telefono = document.getElementById('telefono').value;
